@@ -47,37 +47,38 @@ This project uses YOLOv8 for live object detection. Below are the steps to set u
 - NumPy
 
 
-Class ID	ชื่อ Object	Class ID	ชื่อ Object	Class ID	ชื่อ Object
-0	person	27	backpack	54	carrot
-1	bicycle	28	umbrella	55	hot dog
-2	car	29	handbag	56	pizza
-3	motorcycle	30	tie	57	donut
-4	airplane	31	suitcase	58	cake
-5	bus	32	frisbee	59	chair
-6	train	33	skis	60	couch
-7	truck	34	snowboard	61	potted plant
-8	boat	35	sports ball	62	bed
-9	traffic light	36	kite	63	dining table
-10	fire hydrant	37	baseball bat	64	toilet
-11	stop sign	38	baseball glove	65	TV
-12	parking meter	39	skateboard	66	laptop
-13	bench	40	surfboard	67	mouse
-14	bird	41	tennis racket	68	remote
-15	cat	42	bottle	69	keyboard
-16	dog	43	wine glass	70	cell phone
-17	horse	44	cup	71	microwave
-18	sheep	45	fork	72	oven
-19	cow	46	knife	73	toaster
-20	elephant	47	spoon	74	sink
-21	bear	48	bowl	75	refrigerator
-22	zebra	49	banana	76	book
-23	giraffe	50	apple	77	clock
-24	hat	51	sandwich	78	vase
-25	backpack	52	orange	79	scissors
-26	handbag	53	broccoli	80	teddy bear
+| Class ID | Object         | Class ID | Object         | Class ID | Object         |
+|----------|---------------|----------|---------------|----------|---------------|
+| 0  | person          | 27 | tie            | 54 | donut          |
+| 1  | bicycle         | 28 | suitcase       | 55 | cake           |
+| 2  | car             | 29 | frisbee        | 56 | chair          |
+| 3  | motorcycle      | 30 | skis           | 57 | couch          |
+| 4  | airplane        | 31 | snowboard      | 58 | potted plant   |
+| 5  | bus             | 32 | sports ball    | 59 | bed            |
+| 6  | train           | 33 | kite           | 60 | dining table   |
+| 7  | truck           | 34 | baseball bat   | 61 | toilet         |
+| 8  | boat            | 35 | baseball glove | 62 | TV             |
+| 9  | traffic light   | 36 | skateboard     | 63 | laptop         |
+| 10 | fire hydrant    | 37 | surfboard      | 64 | mouse          |
+| 11 | stop sign       | 38 | tennis racket  | 65 | remote         |
+| 12 | parking meter   | 39 | bottle         | 66 | keyboard       |
+| 13 | bench           | 40 | wine glass     | 67 | cell phone     |
+| 14 | bird            | 41 | cup            | 68 | microwave      |
+| 15 | cat             | 42 | fork           | 69 | oven           |
+| 16 | dog             | 43 | knife          | 70 | toaster        |
+| 17 | horse           | 44 | spoon          | 71 | sink           |
+| 18 | sheep           | 45 | bowl           | 72 | refrigerator   |
+| 19 | cow             | 46 | banana         | 73 | book           |
+| 20 | elephant        | 47 | apple          | 74 | clock          |
+| 21 | bear            | 48 | sandwich       | 75 | vase           |
+| 22 | zebra           | 49 | orange         | 76 | scissors       |
+| 23 | giraffe         | 50 | broccoli       | 77 | teddy bear     |
+| 24 | backpack        | 51 | carrot         | 78 | hair drier     |
+| 25 | umbrella        | 52 | hot dog        | 79 | toothbrush     |
+| 26 | handbag         | 53 | pizza          |    |               |
 
-```
-if class_id in [0, 1, 2]:  # 0 = คน, 1 = จักรยาน, 2 = รถ
+```python
+if class_id in [0, 1, 2]:  # 0 = person, 1 = bicycle, 2 = car
 ```
 ## License
 
