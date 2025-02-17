@@ -80,6 +80,7 @@ This project uses YOLOv8 for live object detection. Below are the steps to set u
 ```python
 if class_id in [0, 1, 2]:  # 0 = person, 1 = bicycle, 2 = car
 ```
+อ่านต่อ v11 ได้ที่ https://docs.ultralytics.com/models/yolo11/
 ## License
 
 This project is licensed under the MIT License.
